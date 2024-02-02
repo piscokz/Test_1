@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_home"
+            android:background="@drawable/home"
+            android:layout_width="38dp"
+            android:layout_height="38dp"/>
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:lines="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_hint"/>
+
+        <Button
+            android:id="@+id/tekan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_go" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/WebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

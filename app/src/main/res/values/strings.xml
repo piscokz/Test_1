@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TEST_1</string>
+    <string name="button_go">go</string>
+    <string name="editText_hint">masukkan url</string>
+</resources>
